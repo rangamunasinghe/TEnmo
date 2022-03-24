@@ -1,0 +1,4 @@
+2022-03-09T14:28:38.4573446 I/O error on POST request for "http://localhost:8080/register": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2022-03-09T18:04:53.2298754 I/O error on POST request for "http://localhost:8080/login": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2022-03-09T18:15:52.6842987 500 : [{"timestamp":"2022-03-09T23:15:52.656+00:00","status":500,"error":"Internal Server Error","message":"No message available","path":"/account/"}]
+2022-03-09T18:35:04.2009423 400 : [{"timestamp":"2022-03-09T23:35:04.178+00:00","status":400,"error":"Bad Request","message":"Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: \"test\"","path":"/account/test"}]
